@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBotForGodotGroupChat", "Core\ServiceBotForGodotGroupChat.csproj", "{B50F0B07-85FA-4DE7-890D-6DA09B5BA4FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseIndexer", "DatabaseIndexer\DatabaseIndexer.csproj", "{D26AEAFC-5BF5-4432-80D1-2A4C238BA3C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BGEM3Adaptor", "BGEM3Adaptor\BGEM3Adaptor.csproj", "{321A401D-BE9A-418C-9C2B-75C1D7549F6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B50F0B07-85FA-4DE7-890D-6DA09B5BA4FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B50F0B07-85FA-4DE7-890D-6DA09B5BA4FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B50F0B07-85FA-4DE7-890D-6DA09B5BA4FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B50F0B07-85FA-4DE7-890D-6DA09B5BA4FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D26AEAFC-5BF5-4432-80D1-2A4C238BA3C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D26AEAFC-5BF5-4432-80D1-2A4C238BA3C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D26AEAFC-5BF5-4432-80D1-2A4C238BA3C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D26AEAFC-5BF5-4432-80D1-2A4C238BA3C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{321A401D-BE9A-418C-9C2B-75C1D7549F6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{321A401D-BE9A-418C-9C2B-75C1D7549F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{321A401D-BE9A-418C-9C2B-75C1D7549F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{321A401D-BE9A-418C-9C2B-75C1D7549F6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
