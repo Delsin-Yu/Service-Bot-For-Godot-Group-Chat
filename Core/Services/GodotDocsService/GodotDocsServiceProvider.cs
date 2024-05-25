@@ -18,12 +18,14 @@ public class GodotDocsServiceProvider : IServiceProvider
 
         var payload = matched[0].Payload;
 
+
+        var document = payload["Document"].StringValue;
+        var url = payload["Url"].StringValue;
         
         var message = $"""
-                      {payload["Document"].StringValue}
-                      
-                      {payload["Url"].StringValue}
-                      """;
+                       {document.ReplaceLineEndings("\n").Split("\n")[0]}
+                       {url}
+                       """;
 
         return message.AsMemory();
     }
